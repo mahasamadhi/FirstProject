@@ -8,8 +8,10 @@ public class MainClass
 {
     public static void main(String[] args) throws IOException
     {
+        circleAgain()
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String switchString;
+        String switchString = "hi";
 
         while(true)
         {
